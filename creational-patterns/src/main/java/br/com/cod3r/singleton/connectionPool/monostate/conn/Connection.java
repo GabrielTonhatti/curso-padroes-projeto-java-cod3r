@@ -1,4 +1,4 @@
-package br.com.cod3r.singleton.connectionPool.conn;
+package br.com.cod3r.singleton.connectionPool.monostate.conn;
 
 public class Connection {
 private boolean inUse;

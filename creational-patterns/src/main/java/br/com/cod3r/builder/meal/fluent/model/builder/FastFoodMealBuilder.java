@@ -4,7 +4,7 @@ import br.com.cod3r.builder.meal.fluent.model.FastFoodMeal;
 
 public class FastFoodMealBuilder {
 	//Mandatory
-	private String side;
+	private final String side;
 	
 	//Optionals
 	private String drink;

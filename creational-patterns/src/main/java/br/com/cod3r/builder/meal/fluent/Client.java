@@ -8,7 +8,7 @@ public class Client {
 	public static void main(String[] args) {
 		FastFoodMeal burguerCombo = new FastFoodMealBuilder("Fries")
 				.andMain("CheeseBurger")
-				.forDrink("Code")
+				.forDrink("Coke")
 				.thatsAll();
 		System.out.println(burguerCombo);
 		

@@ -5,7 +5,7 @@ import br.com.cod3r.builder.meal.after.model.FastFoodMeal;
 
 public class MealDirector {
 
-	private FastFoodMealBuilder builder;
+	private final FastFoodMealBuilder builder;
 
 	public MealDirector(FastFoodMealBuilder builder) {
 		this.builder = builder;
